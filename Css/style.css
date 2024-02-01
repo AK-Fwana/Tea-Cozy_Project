@@ -42,7 +42,7 @@ header {
     color: #482627;
 }
 main {
-    background-image: url(../Images/img-mission-background.jpg);
+    background-image: url(./img-mission-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
