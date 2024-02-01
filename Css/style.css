@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 69px;
+   border-bottom:  1px solid seashell; 
+   position: sticky;
+   top: 0;
+   width: 100%;
+}
+
+.logo {
+   cursor: pointer;
+   margin-left: 10px;
+   height: 50px;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-flex;  
+    text-decoration: underline; 
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.nav_link li:hover {
+    color: #482627;
+}
+main {
+    background-image: url(../Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.tea_month {
+    text-align: center;
+    padding: 20px;
+}
+.tea_month h2 {
+    padding: 20px;
+}
+
+.title h2 {
+    padding: 20px;
+}
+
+.type_tea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 300px;
+}
+p {
+    margin: 10px;
+    text-align: center;
+}
+
+.type_tea img {
+    height: 200px;
+    width: 300px;
+}
+.best img {
+    height: 200px;
+    width: 300px;
+}
+.best {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+#Tea_location {
+    background-image: url(../Images/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.title_loc {
+    background-color: transparent;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.town { 
+
+    width: 300px;
+    opacity: 1;
+    margin-right: 40px;
+}
+
+
+.address {
+    text-align: center;
+    line-height: 60px;
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+}
